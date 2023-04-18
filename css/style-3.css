@@ -1,0 +1,39 @@
+@media  screen and (min-width: 1020px){
+
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        width: 30%;
+        justify-content: space-around;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    figure{
+        padding: .8rem;
+        margin: 2%;
+    }
+    img{
+        width: 100%;
+        max-width: 650px;
+    }
+
+    fieldset{
+        margin: 2%;
+        display: flex;
+        justify-content: center;
+    }
+    fieldset form{
+        max-width: 650px;
+        margin: auto;
+    }
+
+    fieldset small{
+        margin-top: 1.8rem;
+    }
+}

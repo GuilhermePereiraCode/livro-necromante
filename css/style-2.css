@@ -1,0 +1,9 @@
+@media  screen and (min-width: 615px) and (max-width: 1020px){
+    img{
+        width: 60vw;
+    }
+
+    fieldset{
+        max-width: 670px;
+    }
+}
